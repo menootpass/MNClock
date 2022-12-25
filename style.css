@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	
+}
+body{
+	display: flex;
+	background: linear-gradient(234deg,rgba(4,83,240,1)11%, rgba(4, 124, 212, 1.0)41%, rgba(14,188,251,1)87%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	flex-direction: column;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	padding: 20px;
+	border-radius: 10px;
+	flex-direction: row;
+	margin: 20px;
+	width: fit-content;
+	height: fit-content;
+	background: #ecf4fc;
+	align-items: center;
+}
+
+#tanggal, #bulan, #tahun{
+	padding: 10px;
+	float: left;
+	color: rgb(5, 131, 216);
+	width: fit-content;
+	height: fit-content;
+	font-size: 53px;
+	font-family: 'Alegreya Sans SC', monospace, sans-serif,serif;
+}
+
+#jam, #menit, #detik{
+	border-radius: 10px;
+	padding: 10px;
+	float: left;
+	margin: 13px;
+	background-color: rgb(5, 131, 216);
+	color: #ecf4fc;
+	width: fit-content;
+	height: fit-content;
+	font-size: 53px;
+	font-family: 'Anton', sans-serif;
+}
+
+#titik{
+	float: left;
+	color: rgb(5, 131, 216);
+	width: fit-content;
+	height: fit-content;
+	font-size: 53px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
